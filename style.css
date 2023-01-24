@@ -102,11 +102,52 @@ article img:hover {
 	filter: blur(4px);
 }
 
-footer {
+.btn {
+	border: none;
 	color: #fff;
+	left: 50%;
+	padding: 12px 24px;	
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
-/*  GLASS EFFECT  */
+.btn button {
+	background-color: transparent;
+	border: none;	
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.839);
+	border-radius: 12px;
+	color: #531c1ce4;
+	cursor: pointer;
+	filter: blur(1px);
+	font-size: 4vh;
+	font-weight: 600;
+	padding: 4vh;
+	text-transform: uppercase;
+}
+
+footer div {
+	align-items: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer h2 {
+	margin: 4vh 0;
+	font-size: 8vh;
+}
+
+footer p {
+	margin: 0 10vh 10vh 10vh;
+	text-align: center;
+	font-size: 5vh;
+}
+
+
+/*  GLASS EFFECT 
 
 foot {
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -116,3 +157,5 @@ foot {
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+
+ */
