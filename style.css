@@ -105,14 +105,15 @@ article img:hover {
 }
 
 .btn {
-	border: none;
-	color: #fff;
-	left: 50%;
-	padding: 12px 24px;	
+	padding: 4vh;
 	position: absolute;
+	right: 48%;
 	top: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	visibility: hidden;
+}
+
+.banner:hover + .btn {
+	visibility: visible;
 }
 
 .text1 {
