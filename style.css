@@ -47,8 +47,8 @@ nav {
 
 .icon {
 	height: 8vh;
-	position: absolute;
 	left: 3%;
+	position: absolute;
 	top: 1%;
 }
 
@@ -63,15 +63,15 @@ ul {
 
 li {
 	cursor: pointer;
-	border-radius: 12px;	
+	border-radius: 12px;
+	margin-right: 3vh;	
 	padding: 2vh;	
-	margin-right: 3vh;
 	transition: ease 1s;
 }
 
 li:hover {
 	box-shadow: 0 5px 10px #052005;
-	color: #00ff11;
+	color: #b8ec36;
 	transition: ease 1s;	
 }
 
@@ -87,7 +87,7 @@ main section {
 }
 
 .banner {	
-	border-radius: 50px 200px;
+	border-radius: 12px;
 	margin-bottom: 1vh;
 	transition: ease 2s;
 	width: 90%;
@@ -109,14 +109,14 @@ main section {
 .btn {
 	background-color: #680b0bc2;
 	border: none;
-	border-radius: 50px 200px;
+	border-radius: 12px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 4vh;
+	left: 8%;
 	opacity: 0;
 	padding: 6vh;
 	position: absolute;
-	left: 8%;
 	text-transform: uppercase;
 	top: 30%;
 	transition: ease 1s;
@@ -129,7 +129,7 @@ main section {
 }
 
 .btn:hover {
-	color: #00ff11;
+	color: #b8ec36;
 }
 
 .img1 {
@@ -145,6 +145,7 @@ main section {
 	padding: 2vh;
 	position: absolute;
 	right: 77%;
+	text-align: center;
 	top: 73%;
 	visibility: hidden;
 }
@@ -162,6 +163,7 @@ main section {
 	padding: 2vh;
 	position: absolute;
 	right: 52%;
+	text-align: center;
 	top: 73%;
 	visibility: hidden;
 }
@@ -179,6 +181,7 @@ main section {
 	padding: 2vh;
 	position: absolute;
 	right: 27.5%;
+	text-align: center;
 	top: 71%;
 	visibility: hidden;
 }
@@ -196,6 +199,7 @@ main section {
 	padding: 2vh;
 	position: absolute;
 	right: 2.5%;
+	text-align: center;
 	top: 74%;
 	visibility: hidden;
 }
@@ -255,9 +259,8 @@ footer img {
 }
 
 .footIcons svg:hover {
-	box-shadow: 0 5px 10px #550b0b;
-	color: #f13bf1;
 	border-radius: 12px;
+	box-shadow: 0 5px 10px #550b0b;
 	transition: ease 1s;
 }
 
@@ -273,6 +276,6 @@ footer img {
   }
   
   ::-webkit-scrollbar-thumb {
-	background: #680b0b;
+	background-color: #531c1ce4;
 	border-radius: 12px;
   }
