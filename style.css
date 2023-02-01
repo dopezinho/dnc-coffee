@@ -80,11 +80,18 @@ main {
 	height: 100vh;
 }
 
-.banner {
-	border-radius: 12px;
+.banner {	
+	border-radius: 50px 200px;
 	margin-bottom: 1vh;
 	margin-left: 1vh;
+	transition: ease 2s;
 	width: 99%;
+}
+
+.banner:hover, .btn:hover {	
+	border-radius: 200px 50px;
+	box-shadow: 0 5px 10px #420909;
+	transition: ease 2s;
 }
 
 .container {
@@ -95,21 +102,17 @@ main {
 	width: 200vh;
 }
 
-article img {
-	border-radius: 12px;
-}
-
 .btn {
 	background-color: #680b0bc2;
 	border: none;
-	border-radius: 12px;
+	border-radius: 50px 200px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 4vh;
 	opacity: 0;
-	padding: 8vh;
+	padding: 6vh;
 	position: absolute;
-	right: 3%;
+	right: 5%;
 	text-transform: uppercase;
 	top: 20%;
 	transition: ease 1s;
@@ -125,8 +128,13 @@ article img {
 	color: #00ff11;
 }
 
+.img1 {
+	border-radius: 12px;
+	filter: brightness(80%);
+}
+
 .text1 {
-	background-color: rgba(0, 0, 0, 0.628);
+	background-color: #2e0808f5;
 	border-radius: 12px;
 	font-size: 3vh;	
 	max-width: 40vh;
@@ -137,8 +145,13 @@ article img {
 	visibility: hidden;
 }
 
+.img2 {
+	border-radius: 12px;
+	filter: brightness(80%);
+}
+
 .text2 {
-	background-color: rgba(0, 0, 0, 0.628);
+	background-color: #2e0808f5;;
 	border-radius: 12px;
 	font-size: 3vh;
 	max-width: 40vh;
@@ -149,8 +162,13 @@ article img {
 	visibility: hidden;
 }
 
+.img3 {
+	border-radius: 12px;
+	filter: brightness(80%);
+}
+
 .text3 {
-	background-color: rgba(0, 0, 0, 0.628);
+	background-color: #2e0808f5;
 	border-radius: 12px;
 	font-size: 3vh;
 	max-width: 40vh;
@@ -161,8 +179,13 @@ article img {
 	visibility: hidden;
 }
 
+.img4 {
+	border-radius: 12px;
+	filter: brightness(80%);
+}
+
 .text4 {
-	background-color: rgba(0, 0, 0, 0.628);
+	background-color: #2e0808f5;
 	border-radius: 12px;
 	font-size: 3vh;
 	max-width: 40vh;
@@ -177,32 +200,17 @@ article img {
 	visibility: visible;
 }
 
-.img1:hover {
-	filter: blur(3vh);
-}
-
 .img2:hover + .text2, .text2:hover {
 	visibility: visible;
-}
-
-.img2:hover {
-	filter: blur(3vh);
 }
 
 .img3:hover + .text3, .text3:hover {
 	visibility: visible;
 }
 
-.img3:hover {
-	filter: blur(3vh);
-}
 
 .img4:hover + .text4, .text4:hover {
 	visibility: visible;
-}
-
-.img4:hover {
-	filter: blur(3vh);
 }
 
 footer {
