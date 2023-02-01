@@ -214,7 +214,7 @@ main {
 }
 
 footer {
-	height: 50vh;
+	height: 70vh;
 }
 
 .foot {
@@ -240,6 +240,21 @@ footer p {
 
 footer img {
 	margin-bottom: 1vh;
+}
+
+.footIcons svg{
+	cursor: pointer;
+	height: 8vh;
+	margin: 2vh;
+	padding: 2vh;
+	transition: ease 2s;
+}
+
+.footIcons svg:hover {
+	box-shadow: 0 5px 10px #550b0b;
+	color: #f13bf1;
+	border-radius: 12px;
+	transition: ease 1s;
 }
 
 /*  SCROLLBAR  */
