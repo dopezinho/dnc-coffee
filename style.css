@@ -112,9 +112,9 @@ main {
 	opacity: 0;
 	padding: 6vh;
 	position: absolute;
-	right: 5%;
+	left: 8%;
 	text-transform: uppercase;
-	top: 20%;
+	top: 30%;
 	transition: ease 1s;
 }
 
