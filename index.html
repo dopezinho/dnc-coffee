@@ -33,9 +33,23 @@
                       <a>Fazer Pedido</a>
                     </li>
                     <li>
-                      <a>Atendimento</a>
+                      <button class="button open-button">Atendimento</button>
                     </li>
                 </ul>
+
+                
+
+                <dialog class="modal" id="modal">
+                  <h2>Fale conosco</h2>
+                  <button class="button close-button">x</button>
+                  <form class="form" method="dialog">
+                    <label>Nome<input type="text" class="nome"></label>
+                    <label>Email<input type="email" class="email"></label>
+                    <label><input type="text" class="mensagem"></label>
+                    <button class="button submit" type="submit">submit form</button>
+                    
+                </dialog>
+                  </form>
       </nav>
   </header>
 
@@ -74,6 +88,10 @@
                 migração de carreira e aumento de performance.</p>
           </article>
 
+        
+
+
+
 
 
       </div>    
@@ -102,6 +120,8 @@
               </div>
 
     </footer>
+
+    <script src="./index.js"></script>
     
 </body>
 </html>
